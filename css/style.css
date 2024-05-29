@@ -79,7 +79,6 @@ body{
     box-shadow: #00ffb3 0px 0px 20px 2px;
     padding-top: 10px;
     padding-bottom: 2000px;
-    overflow: hidden;
 }
 .my-nameo{
     width: 150px;
@@ -163,6 +162,5 @@ body{
     box-shadow: #00ffb3 0px 0px 20px 2px;
     padding-top: 10px;
     padding-bottom: 3000px;
-    overflow: hidden;
 }
 }
