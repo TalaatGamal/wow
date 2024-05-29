@@ -151,4 +151,15 @@ body{
     /* transform: translateX(20%); */
     transform: translateX(0%);
   }
-  }
+  }@media (max-width: 768px) /* (max-width: 768px)*/{
+   #lineo1{
+    top: 64.9vh;
+    left: 36vw;
+    width: 271px;
+   }
+   #lineo2{
+    top: 73.82vh;
+    left: 15.3vw;
+    width: 162px;
+   }
+}
