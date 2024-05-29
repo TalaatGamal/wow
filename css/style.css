@@ -5,6 +5,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    overflow: hidden;
 }
 body{
     text-align: center;
@@ -161,5 +162,8 @@ body{
     top: 73.82vh;
     left: 15.3vw;
     width: 162px;
+   }
+   body{
+    overflow: hidden;
    }
 }
