@@ -153,14 +153,20 @@ body{
   }
   }@media (max-width: 768px) /* (max-width: 768px)*/{
    #lineo1{
-    top: 64.9vh;
-    left: 36vw;
-    width: 271px;
+    top: 0vh;
+    left: 0vw;
+    width: 0px;
    }
    #lineo2{
-    top: 73.82vh;
-    left: 15.3vw;
-    width: 162px;
+    top: 0vh;
+    left: 0vw;
+    width: 0px;
+   }
+   #hro1{
+    border: #00ffb300 solid 2px;
+   }
+   #hro2{
+    border: #00ffb300 solid 2px;
    }
    body{
     overflow: hidden;
