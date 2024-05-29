@@ -152,23 +152,17 @@ body{
     transform: translateX(0%);
   }
   }@media (max-width: 768px) /* (max-width: 768px)*/{
-   #lineo1{
-    top: 0vh;
-    left: 0vw;
-    width: 0px;
-   }
-   #lineo2{
-    top: 0vh;
-    left: 0vw;
-    width: 0px;
-   }
    #hro1{
     border: #00ffb300 solid 2px;
    }
    #hro2{
     border: #00ffb300 solid 2px;
    }
-   body{
+   #containero{
+    background-color: rgba(0, 0, 0, 0.851);
+    box-shadow: #00ffb3 0px 0px 20px 2px;
+    padding-top: 10px;
+    padding-bottom: 3000px;
     overflow: hidden;
-   }
+}
 }
