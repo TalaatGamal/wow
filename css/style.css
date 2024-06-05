@@ -26,7 +26,7 @@ body{
 .containero h1{
     margin-top: 200px;
 }
-.containero p{
+.containero .p-title{
     margin-bottom: 30px;
  }
 .h2o{
@@ -82,7 +82,6 @@ body{
 }
 .my-nameo{
     width: 150px;
-    margin-left: 100px;
 }
 .topline{
     background-color: #ffffff00;
@@ -205,4 +204,34 @@ body{
     padding-top: 10px;
     padding-bottom: 2000px;
 }
+}
+.nav-item{
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-width: max-content;
+ }
+.navbar{
+  padding-left: 7vw;
+}
+.footer{
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: fixed;
+    top: 90vh;
+    height: max-content;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    overflow: hidden;
+    color: #d4d4d4b0;
+    background-color: #00000000;
+    border: #ffffff00 solid 4px;
+    box-shadow: #ffffff 3px 0px 0px 0px;
+}
+.p-footer{
+  padding-bottom: 0px;
+  font-size: small;
 }
