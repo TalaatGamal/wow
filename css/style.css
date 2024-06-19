@@ -18,10 +18,16 @@ body{
     background-attachment: fixed;
 }
 .infop{
-    display: flex;
+    display: inline-flex;
     text-align: center;
     justify-content: center;
     background-color: rgba(255, 0, 0, 0);
+    background-image: url(../images/USA-FLAG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #00ffb3 solid 2px;
+    border-radius: 20px;
 }
 .containero h1{
     margin-top: 200px;
@@ -30,13 +36,14 @@ body{
     margin-bottom: 30px;
  }
 .h2o{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.921);
+    border-radius: 10px;
     color: #ffffff;
     padding: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    margin: 20px;
-    box-shadow:  #00ffb348 -3px -2px 0px 0px;
+    margin: 5px;
+    box-shadow:  #00ffb348 0px 0px 0px 0px;
     min-width: max-content;
     font-size: 25px;
 }
@@ -66,11 +73,12 @@ body{
   }
   }
 .h2o-v1o{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.927);
+    border-radius: 10px;
     color: #ffffff;
     padding: 15px;
-    margin: 20px;
-    box-shadow:  #00ffb348 3px 2px 0px 0px;
+    margin: 5px;
+    box-shadow:  #00ffb348 0px 0px 0px 0px;
     min-width: max-content;
     font-size: 25px;
 }
@@ -82,6 +90,12 @@ body{
 }
 .my-nameo{
     width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top: #a3a3a3 double 5px;
+    border-bottom: #aeaeae double 5px;
+    border-left: #810000 dotted 5px;
+    border-right: #920000 dotted 5px;
 }
 .topline{
     background-color: #ffffff00;
@@ -91,65 +105,70 @@ body{
     padding: 2px;
     padding-bottom: 4px;
 }
-
+/* 
 .lineo1{
     padding-left: 0vw;
     padding-right: 0vw;
     width: 269px;
     position: absolute;
-    top: 59.2vh;
+    top: 59.9vh;
     left: 44.9vw;
 }
 .lineo1 .hro1{
-    border: #00ffb348 solid 2px;
-    /* box-shadow: #00ffb3 0px 0px 20px 2px; */
+    border: #00ffb348 dotted 1.6px;
+    /* box-shadow: #00ffb3 0px 0px 20px 2px; *//*
     animation: move-arrow-inm 5s linear infinite;
 }
 @keyframes move-arrow-inm {
   0% {
     opacity: 0;
-    /* transform: translateX(-20%); */
-    transform: translateX(100%);
+    /* transform: translateX(-20%); *//*
+    transform: translateX(1000%);
   }
   50% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(-300%);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(-100%);
   }
   100% {
     opacity: 0;
-    /* transform: translateX(20%); */
-    transform: translateX(0%);
+    /* transform: translateX(20%); *//*
+    transform: translateX(100%);
   }
-  }
-  
+  } */
+/*   
 .lineo2{
     padding-left: 0vw;
     padding-right: 0vw;
     width: 160px;
     position: absolute;
-    top: 67.1vh;
+    top: 67.8vh;
     left: 37.5vw;
 }
 .lineo2 .hro2{
-    border: #00ffb343 solid 2px;
+    border: #00ffb343 dotted 2px;
     animation: move-arrow-inp 5s linear infinite;
 }
 @keyframes move-arrow-inp {
   0% {
     opacity: 0;
-    /* transform: translateX(-20%); */
-    transform: translateX(-100%);
+    /* transform: translateX(-20%); *//*
+    transform: translateX(-1000%);
   }
   50% {
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateX(500%);
   }
   100% {
     opacity: 0;
-    /* transform: translateX(20%); */
-    transform: translateX(0%);
-  }
-  }@media (max-width: 768px) /* (max-width: 768px)*/{
+    /* transform: translateX(20%); *//*
+    transform: translateX(-100%);
+  } 
+  }*/
+  @media (max-width: 768px) /* (max-width: 768px)*/{
    #hro1{
     border: #00ffb300 solid 2px;
     animation: move-arrow-inw 5000s infinite;
